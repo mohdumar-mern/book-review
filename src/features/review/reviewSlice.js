@@ -14,7 +14,6 @@ export const submitReview = createAsyncThunk(
           headers: {
             Authorization: `Bearer ${token}`,
           },
-          withCredentials: true,
         });
   
         return response.data;
