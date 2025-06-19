@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: false;
+    include: ;
+    exclude: ;
+    prefix: ;
+    logs: true;
+  }
